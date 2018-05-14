@@ -1,0 +1,354 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"av",
+				"avg_num\tstatement"
+			],
+			[
+				"fu",
+				"functools\tmodule"
+			],
+			[
+				"tup",
+				"tup_list\tstatement"
+			],
+			[
+				"g",
+				"group_b\tstatement"
+			],
+			[
+				"gr",
+				"group_a\tstatement"
+			],
+			[
+				"grou",
+				"group_b\tstatement"
+			],
+			[
+				"sum",
+				"sum_list_len\tstatement"
+			],
+			[
+				"num",
+				"number_list\tstatement"
+			],
+			[
+				"s",
+				"settings"
+			],
+			[
+				"down",
+				"download_dir"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#!/usr/bin/env python3\n\nfrom collections import defaultdict\n\nn, m = input().strip().split(' ')\nn, m = int(n), int(m)\n\ngroup_a = [input().strip() for i in range(n)]\ngroup_b = [input().strip() for i in range(m)]\n\nd = defaultdict(list)\n\nindex = 0\nlna = len(group_a)\n[d[group_a[index]].append(index + 1) for index in range(lna)]\n\n\nfor k in group_b:\n    if not d[k]:\n        print(-1)\n    else:\n        [print(x, end=' ') for x in d[k]]\n        print('')\n",
+			"file": "default_dict.py",
+			"file_size": 397,
+			"file_write_time": 131626849976375608,
+			"settings":
+			{
+				"buffer_size": 450,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "namedtuple_test.py",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#!/usr/bin/env python3"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/wangjing/github/tutorial/python/hanker"
+	],
+	"file_history":
+	[
+		"/Users/wangjing/github/tutorial/python/hanker/2DArrayDS.py",
+		"/Users/wangjing/github/tutorial/python/hanker/kangaroo.py",
+		"/Users/wangjing/github/tutorial/python/hanker/between2sets.py",
+		"/Users/wangjing/github/tutorial/python/hanker/GameofThrones-1.py",
+		"/Users/wangjing/github/tutorial/python/hanker/common-child.py",
+		"/Users/wangjing/github/tutorial/python/hanker/the-minion-game.py",
+		"/Users/wangjing/github/tutorial/python/hanker/commonchild.py",
+		"/Users/wangjing/github/tutorial/python/hanker/pangrams.py",
+		"/Users/wangjing/github/tutorial/python/hanker/SeparateNumbers.py",
+		"/Users/wangjing/github/tutorial/python/interprocess/timeout.py",
+		"/Users/wangjing/github/tutorial/python/basic/re_st.py",
+		"/Users/wangjing/github/tutorial/python/basic/map_st.py",
+		"/Users/wangjing/github/tutorial/python/interprocess/alarm.py",
+		"/Users/wangjing/github/tutorial/python/interprocess/signal_st.py",
+		"/Users/wangjing/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/Users/wangjing/github/tutorial/python/concurrent/taskctl.py",
+		"/Users/wangjing/github/tutorial/python/concurrent/command.py",
+		"/Users/wangjing/github/tutorial/python/concurrent/manager.py",
+		"/Users/wangjing/github/tutorial/python/concurrent/multiprocess_st.py",
+		"/Users/wangjing/github/tutorial/python/concurrent/worker.py",
+		"/Users/wangjing/bitbucket/info/myaws/myaws.txt",
+		"/Users/wangjing/bitbucket/flightv3/convert/init.py",
+		"/Users/wangjing/bitbucket/flightv3/docker_node/src/settings.py",
+		"/Users/wangjing/github/clothatar/webserver/webserver/settings.py",
+		"/Users/wangjing/.bash_profile",
+		"/Users/wangjing/bitbucket/flightv3/docker_node/src/worker_exec.py",
+		"/Users/wangjing/github/jupyter-docker/base-notebook/Dockerfile",
+		"/Users/wangjing/bitbucket/flightv3/docker_node/Dockerfile",
+		"/Users/wangjing/bitbucket/flightv3/doc/create_task_definition.txt",
+		"/Users/wangjing/bitbucket/info/myaws/ecs.config",
+		"/Users/wangjing/bitbucket/flight_wiki/lanch_ecs.md",
+		"/Users/wangjing/bitbucket/flightv3/doc/ecs_user_data.sh",
+		"/Users/wangjing/.ssh/config",
+		"/Users/wangjing/bitbucket/flightv3/doc/work_ecr.txt",
+		"/Users/wangjing/bitbucket/flightv3/doc/restful_api.txt",
+		"/Users/wangjing/bitbucket/info/myaws/wangj_accessKeys.csv"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "default_dict.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "namedtuple_test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								24
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"auto_name": "#!/usr/bin/env python3",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3.sublime-build",
+	"project": "hanker.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"view.py",
+				"flight/views.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 85.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
