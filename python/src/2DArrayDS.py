@@ -22,7 +22,7 @@ e f g
 There are hourglasses in , and an hourglass sum is the sum of an hourglass' values.
 
 Task
-Calculate the hourglass sum for every hourglass in , then print the maximum hourglass sum.
+Calculate the hourglass sum for every hourglass in , then print the maximum hourglass sum.``
 
 Note: If you have already solved the Java domain's Java 2D Array challenge, you may wish to skip this challenge.
 
